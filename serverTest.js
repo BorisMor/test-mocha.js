@@ -14,7 +14,7 @@ var url = require("url");
 
 /**
  * Разбор form-data или application/json
- * @param {*} data 
+ * @param {*} req 
  */
 function getFormData(req) {
     return new Promise(function(resolve, reject) {
